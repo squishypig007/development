@@ -1,5 +1,38 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper_bakery_item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.outermost_columns{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: row;
+
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  width: 35vw;
+  height: 100vw;
+  margin: 20px;
+  padding: 10px;
 }
 
 .App-logo {

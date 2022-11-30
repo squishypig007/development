@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bolt",
+    "description": "A girl named Penny and a dog named Bolt, who has various superpowers, must constantly thwart the evil plans of the nefarious Doctor Calico",
+    "views": 18,
+    "price": 7.99,
+    "rated": "PG-13",
+    "image": "images/bolt.png"
+  },
+  {
+    "name": "American Pie",
+    "description": "Kevin decides to take a stand and defiantly declares that the four will make a pact, to lose their virginity before school prom.",
+    "views": 12,
+    "price": 3.99,
+    "rated": "R",
+    "image": "images/AmericanPie.png"
+  },
+  {
+    "name": "Cloudy With a Chance of Meatballs",
+    "description": "The film centers around an aspiring inventor named Flint Lockwood who develops, following a series of failed experiments, a machine that can convert water into food. ",
+    "views": 1,
+    "price": 8.99,
+    "rated": "PG-13",
+    "image": "images/meatball1.png"
+  },
+  {
+    "name": "Cloudy With a Chance of Meatballs 2",
+    "description": "Flint Lockwood and his friends returning to Swallow Falls to save the world after the presumed-destroyed FLDSMDFR reactivates",
+    "views": 17,
+    "price": 9.99,
+    "rated": "PG-13",
+    "image": "images/meatball2.png"
+  },
+  {
+    "name": "Mean Girls",
+    "description": "Cady is unprepared for her first day of public high school. Things do not go as planned when Cady falls in love with Regina's ex-boyfriend Aaron.",
+    "views": 2,
+    "price": 7.99,
+    "rated": "PG-13",
+    "image": "images/meangirls.png"
+  },
+  {
+    "name": "Eyes Wide Shut",
+    "description": "A doctor becomes obsessed with having a sexual encounter after his wife admits to having sexual fantasies about a man she met",
+    "views": 8,
+    "price": 2.99,
+    "rated": "R",
+    "image": "images/EyesWideShut.png"
+  },
+  {
+    "name": "Deadpool",
+    "description": "A mysterious recruiter approaches Wilson and offers him an experimental treatment for his cancer.",
+    "views": 10,
+    "price": 10.99,
+    "rated": "R",
+    "image": "images/Deadpool.png"
+  },
+  {
+    "name": "Airbud",
+    "description": "High schooler Josh signs up to be the school basketball team's manager and discovers that his pet dog Bud, can play the sport amazingly.",
+    "views": 16,
+    "price": 10.99,
+    "rated": "PG-13",
+    "image": "images/airbud.png"
+  },
+  {
+    "name": "Love, Simon",
+    "description": "Simon Spier keeps a huge secret from his family, his friends and all of his classmates: he's gay.",
+    "views": 3,
+    "price": 12.99,
+    "rated": "PG-13",
+    "image": "images/lovesimon.png"
+  },
+  {
+    "name": "Toy Story",
+    "description": "Woody, a cowboy doll who belongs to a boy named Andy, sees his position as favorite toy jeopardized when he buys a Buzz Lightyear doll.",
+    "views": 15,
+    "price": 0,
+    "rated": "PG-13",
+    "image": "images/toystory.png"
+  },
+  {
+    "name": "Chicken Run",
+    "description": "The plot centres on a group of British anthropomorphic chickens who see an American rooster named Rocky Rhodes as their only hope to escape the farm",
+    "views": 4,
+    "price": 0,
+    "rated": "PG-13",
+    "image": "images/ChickenRun.png"
+  },
+  {
+    "name": "Fifty Shades of Grey",
+    "description": "The sensitive and guileless English major, Anastasia Steele, finds herself surrendering to an irresistible force",
+    "views": 14,
+    "price": 15.99,
+    "rated": "PG-13",
+    "image": "images/FiftyShadesofGrey.png"
+  },
+  {
+    "name": "The Terminator",
+    "description": "A cyborg assassin is sent back through time to 1984 to kill the seemingly innocent Sarah Connor--a significant woman in a bitter future",
+    "views": 5,
+    "price": 13.99,
+    "rated": "R",
+    "image": "images/TheTerminator.png"
+  },
+  {
+    "name": "300",
+    "description": "King Xerxes of Persia amasses an army of hundreds of thousands for the purpose of invading and conquering Greece in 481 B.C.",
+    "views": 13,
+    "price": 15.99, 
+    "rated": "R",
+    "image": "images/300.png"
+  },
+  {
+    "name": "The Conjuring",
+    "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    "views": 6,
+    "price": 10.99,
+    "rated": "R",
+    "image": "images/TheConjuring.png"
+  },
+  {
+    "name": "Annabelle",
+    "description": "On one horrific night, their home is invaded by members of a satanic cult, who violently attack the couple.",
+    "views": 7,
+    "price": 9.99,
+    "rated": "R",
+    "image": "images/Annabelle.png"
+  },
+  {
+    "name": "That Awkward Moment",
+    "description": "The commitment-phobic Jason decides on behalf of the group that if Mikey has to be single, they'll all be single together.",
+    "views": 11,
+    "price": 0,
+    "rated": "R",
+    "image": "images/ThatAwkwardMoment.png"
+  },
+  {
+    "name": "Joker",
+    "description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
+    "views": 9,
+    "price": 17.99,
+    "rated": "R",
+    "image": "images/Joker.png"
+  }
+]

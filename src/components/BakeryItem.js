@@ -1,13 +1,13 @@
 import "./BakeryItemCss.css";
 import { useEffect, useState } from "react";
-export default function BakeryItem({movie, index, countSetter, counter, setFavorites, favorites, priceSetter, favoritesPrice,
+export default function BakeryItem({movie, index, setFavorites, favorites, priceSetter, favoritesPrice,
     }){
         const [buttonTxt, buttonTxtSetter] = useState("Add to Favorites");
         function handleClick() {
             //aggregator needs to get updated to account for only what is on dispaly
             if(buttonTxt==="Add to Favorites"){
                 buttonTxtSetter("Remove from Favorites");
-                setFavorites([...favorites, movie.name]) ;
+                setFavorites([...favorites, movie.name, " "]) ;
                 priceSetter(favoritesPrice+movie.price)
             }
             else{
@@ -30,10 +30,6 @@ export default function BakeryItem({movie, index, countSetter, counter, setFavor
             <img src= {movie.image} width="190vw"/>
             <br></br>
             Price: ${movie.price}
-            {/* let ifFree;
-            if ({movie.price}==0){
-                <h2>FREE</h2>
-            } */}
             </div>
             <div className="words">
             Views: {movie.views}

@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.title{
+  font-size: 2.5vw;
+  text-shadow: 1px 1px 2px black;
+  font-style: italic;
+}
+
 .wrapper_bakery_item{
   display: flex;
   flex-direction: row;

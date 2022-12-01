@@ -3,7 +3,7 @@ import './App.css';
 import { useEffect, useState } from "react";
 import bakeryData from "./assets/bakery-data.json";
 import BakeryItem from "./components/BakeryItem";
-import FavItem from "./components/FavItem";
+// import FavItem from "./components/FavItem";
 import Cost from "./components/Cost";
 import Rating from "./components/Rating";
 import Views from "./components/Views";
@@ -20,10 +20,13 @@ function App() {
   const[costValue, setCostValue] = useState("all");
   const[ratingValue, setRatingValue] = useState("all");
   const[sortValue, setSortValue] = useState("mosttoleast");
+  const[favoriteValue, setfavoriteValue] = useState("all");
   // const[finalFavorites, setFinalFavorites] = useState([]);
 
   const matchesFilterType = item => {
-    if (matchesCostType(item) && matchesRatingType(item)){
+    if (matchesCostType(item) && matchesRatingType(item) 
+    // && matchesFavoriteType(item)
+    ){
       return true
     }
     return false
@@ -46,13 +49,21 @@ function App() {
       return true
     }
     else if(ratingValue === "r"){
-      console.log("entered R condition")
       return item.rated==="R"
     }
     else{
       return item.rated!="R"
     }
   }
+
+  // const matchesFavoriteType = item => {
+  //   if (favoriteValue === "all"){
+  //     return true
+  //   }
+  //   else{
+  //     return favorites.includes(item.name)
+  //   }
+  // }
 
   const matchesSortType = (a, b) => {
     if (sortValue === "mosttoleast"){
@@ -88,18 +99,22 @@ function App() {
   //aggregator price of favorites - does not need to work w filter and sort
   return (
     <div className="App">
-      <div className="title">
-        <h1>Blockbuster Rentals</h1></div>
+      <div className="title"><h1>Blockbuster Rentals</h1></div>
       <div className="outermost_columns">
 
         <div className="menu">
         <h3>Movie Menu</h3>
+        <br></br>
         <Cost setCostValue={setCostValue}/>
         <Rating setRatingValue={setRatingValue}/>
         <Views setSortValue={setSortValue}/>
-
-      {<h5>Favorite Movies: {favorites}</h5>}
-      {<h5>Total Price of Favorites: {price}</h5>}
+        {/* <FavItem setfavoriteValue={setfavoriteValue}/> */}
+        <br></br>
+      <div className="favoriteDiv">
+        {<h4>Favorite Movies:</h4>} <div className="h5">{favorites}</div>
+        <br></br>
+        {<h4>Total Price of Favorites:</h4>} <div className="h5">${price}</div>
+      </div>
         </div>
         <div className="wrapper_bakery_item">
           {sortAndFilteredData.map((item, index) => (
@@ -108,7 +123,7 @@ function App() {
           ))}
         </div> 
       </div>
-      <div>
+      {/* <div>
         <h2>Favorites</h2>
         {//show only if asked for favorites
         bakeryData.map((item, index) => (
@@ -117,7 +132,7 @@ function App() {
             // TODO: map bakeryData to BakeryItem components
           ))}
       </div>
-      
+       */}
     </div>
   );
 }

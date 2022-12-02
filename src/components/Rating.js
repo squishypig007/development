@@ -19,7 +19,7 @@ export default function Rating(props) {
         defaultValue="all"
         name="radio-buttons-group"
       >
-        <FormControlLabel value="all" control={<Radio />} label="All" />
+        <FormControlLabel value="all" control={<Radio />} label="All Ratings" />
         <FormControlLabel value="r" control={<Radio />} label="R" />
         <FormControlLabel value="pg13" control={<Radio />} label="PG-13" />
       </RadioGroup>

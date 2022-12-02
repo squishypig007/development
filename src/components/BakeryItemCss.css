@@ -14,7 +14,7 @@
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 20px 30px 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 30px 0 rgba(124, 123, 123, 0.6);
   }
   
   .words {

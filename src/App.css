@@ -1,14 +1,18 @@
 .App {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #282c34;
+  flex-direction: row;
+  background-color: #22252c;
 }
 
 .title{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
   font-size: 2.5vw;
-  color: rgb(255, 221, 0);
+  color: rgb(255, 191, 0);
   text-shadow: 1px 3px 5px rgb(0, 0, 0);
   font-style: italic;
 }
@@ -25,7 +29,6 @@
   display: flex;
   /* background-color: red; */
   flex-direction: row;
-
 }
 
 .favoriteDiv{
@@ -46,7 +49,7 @@
 }
 
 .menu{
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   background-color: white;
   /* flex-wrap: wrap; */
@@ -54,8 +57,8 @@
   align-items: center;
   border: 2px solid #d2d2d2;
   border-radius: 10px;
-  width: 35vw;
-  height: 80vw;
+  width: 150px;
+  height: 800px;
   margin: 20px;
   padding: 10px;
 }

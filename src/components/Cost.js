@@ -12,14 +12,14 @@ export default function Cost(props) {
   }
   return (
     <FormControl>
-      <FormLabel id="demo-radio-buttons-group-label">Cost</FormLabel>
+      <FormLabel id="demo-radio-buttons-group-label">Price</FormLabel>
       <RadioGroup
         onChange={handleChange}
         aria-labelledby="demo-radio-buttons-group-label"
         defaultValue="all"
         name="radio-buttons-group"
       >
-        <FormControlLabel value="all" control={<Radio />} label="All" />
+        <FormControlLabel value="all" control={<Radio />} label="All Prices" />
         <FormControlLabel value="free" control={<Radio />} label="Free" />
         <FormControlLabel value="paid" control={<Radio />} label="Paid" />
       </RadioGroup>

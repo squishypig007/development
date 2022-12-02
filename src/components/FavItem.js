@@ -20,7 +20,7 @@ export default function FavItem(props) {
         name="radio-buttons-group"
       >
         <FormControlLabel value="all" control={<Radio />} label="All Movies" />
-        <FormControlLabel value="favorites" control={<Radio />} label="My Favorites" />
+        <FormControlLabel value="favorites" control={<Radio />} label="Favorites" />
       </RadioGroup>
     </FormControl>
   );
